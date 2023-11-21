@@ -40,9 +40,9 @@ use_multitoc_numbering = True
 
 blog_baseurl = "https://kisleif.github.io/mtbook/blog.html"
 blog_title = "Übungen"
-blog_path = "blog"
-blog_post_pattern = "blog/*/*"
-blog_post_pattern = ["posts/*.rst", "posts/*.md", "posts/*.ipynb"]
+blog_path = "posts"
+blog_post_pattern = "posts/*/*"
+#blog_post_pattern = ["posts/*.rst", "posts/*.md", "posts/*.ipynb"]
 #blog_feed_fulltext = True
 ##blog_feed_subtitle = "Open communities, open science, communication, and data."
 #fontawesome_included = True
