@@ -1,0 +1,24 @@
+name: environment
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - psutil
+  - toolz
+  - matplotlib
+  - dill
+  - pandas
+  - partd
+  - bokeh
+  - dask
+  - uncertainties
+  - IPython
+  - ipywidgets
+  - plotly
+  - seaborn
+  - time
+  - scipy
+  - lmfit
+  - tabulate
+  - sympy
