@@ -7,7 +7,17 @@ author = 'Katharina-S. Isleif'
 bibtex_bibfiles = ['references.bib']
 comments_config = {'hypothesis': True, 'utterances': False}
 copyright = '2022'
-exclude_patterns = ['**.ipynb_checkpoints', '.DS_Store', 'Thumbs.db', '_build', 'archive/*']
+exclude_patterns = [
+    "_build",
+    "Thumbs.db",
+    ".DS_Store",
+    "*import_posts*",
+    "**/pandoc_ipynb/inputs/*",
+    ".nox/*",
+    "README.md",
+    "**/.ipynb_checkpoints/*",
+    "archive/*",
+]
 execution_allow_errors = False
 execution_excludepatterns = []
 execution_in_temp = False
@@ -40,7 +50,7 @@ use_multitoc_numbering = True
 
 blog_baseurl = "https://kisleif.github.io/mtbook/blog.html"
 blog_title = "Übungen"
-blog_path = "posts"
+blog_path = "blog"
 blog_post_pattern = "posts/*/*"
 #blog_post_pattern = ["posts/*.rst", "posts/*.md", "posts/*.ipynb"]
 #blog_feed_fulltext = True
