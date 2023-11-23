@@ -1,7 +1,0 @@
-# Sensoren
-
-## Inhalte
-```{tableofcontents}
-```
-
-## Zusammenfassung
