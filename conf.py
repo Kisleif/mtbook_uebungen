@@ -25,8 +25,8 @@ blog_title = "Messtechnik Übungen"
 # e.g. blog_baseurl = "http://example.com/"
 blog_baseurl = ""
 
-blog_path = "uebungen"
-blog_post_pattern = "uebungen/*/*"
+blog_path = "mtbook_uebungen"
+blog_post_pattern = "mtbook_uebungen/*/*"
 blog_feed_fulltext = True
 blog_feed_subtitle = ""
 fontawesome_included = True
@@ -79,7 +79,7 @@ blog_authors = {
 templates_path = ["_templates"]
 
 redirect_folders = {
-    "posts": "uebungen/",
+    "posts": "mtbook_uebungen/",
 }
 
 # Format date for a post.
