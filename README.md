@@ -10,8 +10,17 @@ Dies sind die Quelldateien, woraus später die HTML Webseite kompiliert wird.
 
 ## Aufgaben korrigieren und neue erstellen
 Dies geht bereits ohne Klonen des Repositories direkt im Browser:
-Ihr möchtet eine Aufgabe korrigieren? Wann sucht die dazugehörige .md Datei raus und editiert sie im Browser (oder dem geklonten Repository auf eurem Rechner).
-Ihr möchtet eine neue Aufgabe hinzufügen? Dann erstellt eine neue .md Datei im Hauptordner im Browser (oder dem geklonten Repository auf eurem Rechner).
+1. Ihr möchtet eine Aufgabe **korrigieren**? Wann sucht die dazugehörige .md Datei raus und editiert sie im Browser (oder dem geklonten Repository auf eurem Rechner).
+2. Ihr möchtet eine neue Aufgabe **hinzufügen**? Dann erstellt eine neue .md Datei im Hauptordner im Browser (oder dem geklonten Repository auf eurem Rechner). Bitte als Header an anderen Markdown Dateien orientieren, bzw. den folgenden kopieren. Später wird `date` und `location` für den jeweiligen Jahrgang neu gesetzt. Ein Datum, was in der Zukunft liegt, erscheint später nicht online im Übungspool!
+
+`---
+blogpost: true
+date: Dec 11, 2023
+category: Übung
+location: Zettel_10
+tags: Widerstand, Messbrücke, Elektronik, Sensor, DMS
+---`
+
 Solltet ihr im Repository auf eurem Rechner arbeiten, vergesst nicht im Anschluss zu committen and pushen. 
 
 ## Aufgaben als HTML kompilieren
