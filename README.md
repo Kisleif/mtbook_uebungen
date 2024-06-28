@@ -4,7 +4,7 @@ In diesem Repository werden alle Übungsaufgaben der Messtechnik als Markdown (.
 Dies sind die Quelldateien, woraus später die HTML Webseite kompiliert wird.
 
 ## Issues nutzen!!!
-Bevor ihr eine Aufgabe korrigiert, erstellt erst ein Issue, mit dem Titel der Aufgabe, und assigned es entsprechend. So umgehen wird das Problem, dass mehrere Leute die gleiche Aufgabe korrigieren. 
+Bevor ihr eine Aufgabe korrigiert, erstellt erst ein Issue, mit dem Titel der Aufgabe, und assigned es entsprechend an euch selber. So umgehen wird das Problem, dass mehrere Leute die gleiche Aufgabe korrigieren. 
 
 ## Aufgaben korrigieren und neue erstellen
 Dies geht bereits ohne Klonen des Repositories direkt im Browser:
