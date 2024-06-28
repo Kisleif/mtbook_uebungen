@@ -12,13 +12,13 @@ Solltet ihr im Repository auf eurem Rechner arbeiten, vergesst nicht im Anschlus
 ## Aufgaben als HTML kompilieren
 Dafür müsst ihr dieses Repository auf eurem PC klonen. 
 Navigiert im Terminal in den Hauptordner (mtbook_uebungen) und führt folgenden Terminal-Befehl aus: `ablog build`.
-Danach findet ihr die HTML Datein jeder einzelnen ÜBungsaufgabe im Unterordner '_website'. Klickt diese einfach an (z.B. index.html).
+Danach findet ihr die HTML Datein jeder einzelnen ÜBungsaufgabe im Unterordner `_website`. Klickt diese einfach an (z.B. `index.html`).
 
-Bei Fehlern/Errors versucht 'ablog clean' mit anschließendem 'ablog build'.
+Bei Fehlern/Errors versucht `ablog clean` mit anschließendem `ablog build`.
 
 Ihr könnt diesen Ordner auch pushen. 
 
 ## Upload der Aufgaben in den Online Pool 
-KSI wird den _website Ordner aus diesem Repository in die Webseite des Vorlesungsskiptes integrieren. Hierfür bitte eine kurze Nachricht schreiben. 
+KSI wird die Übungen online stellen, welche aus diesem Repository mittels `ablog build` erstellt werden. Hier für eine kurze Nachricht an KSI schreiben. Sie wird dann neue HTMLs generieren und im  [Übungspool](https://kisleif.github.io/mtbook/_website/uebungen/index.html) veröffentlichen. 
 
 
