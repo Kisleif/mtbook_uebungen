@@ -11,7 +11,7 @@ Solltet ihr im Repository auf eurem Rechner arbeiten, vergesst nicht im Anschlus
 
 ## Aufgaben als HTML kompilieren
 Dafür müsst ihr dieses Repository auf eurem PC klonen. 
-Navigiert im Terminal in den Hauptordner (mtbook_uebungen) und führt folgenden Terminal-Befehl aus: 'ablog build'.
+Navigiert im Terminal in den Hauptordner (mtbook_uebungen) und führt folgenden Terminal-Befehl aus: `ablog build`.
 Danach findet ihr die HTML Datein jeder einzelnen ÜBungsaufgabe im Unterordner '_website'. Klickt diese einfach an (z.B. index.html).
 
 Bei Fehlern/Errors versucht 'ablog clean' mit anschließendem 'ablog build'.
