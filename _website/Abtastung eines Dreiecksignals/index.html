@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Abtastung eines Dreiecksignals &#8212; Messtechnik Übungen</title>
+    <title>Abtastung von Messsignalen &#8212; Messtechnik Übungen</title>
   
   
   
@@ -337,9 +337,11 @@ document.write(`
 <h2>
   
   
-  <i class="fa fa-calendar"></i>
+  <i class="fa fa-pencil"></i>
   
-  Nov 15, 2023
+  
+  Okt 01, 2024
+  
   
 </h2>
 <ul>
@@ -355,7 +357,7 @@ document.write(`
     </span>
   
   
-  <a href="../mtbook_uebungen/location/probeklausur/">Probeklausur</a>
+  Übungszettel
   
   
   
@@ -369,13 +371,6 @@ document.write(`
     <i class="fa-fw fa fa-folder-open"></i>
     
     </span>
-  
-  
-  <a href="../mtbook_uebungen/category/kurzfrage/">Kurzfrage</a>
-  
-  ,
-  
-  
   
   
   <a href="../mtbook_uebungen/category/ubung/">Übung</a>
@@ -395,7 +390,7 @@ document.write(`
     </span>
   
   
-  <a href="../mtbook_uebungen/tag/dreieck/">Dreieck</a>
+  <a href="../mtbook_uebungen/tag/abtastung/">Abtastung</a>
   
   
   
@@ -407,7 +402,7 @@ document.write(`
   
   
   
-  <a href="../mtbook_uebungen/tag/abtastung/">Abtastung</a>
+  <a href="../mtbook_uebungen/tag/dreieck/">Dreieck</a>
   
   
   
@@ -433,7 +428,7 @@ document.write(`
   
   
   <li>
-    <a href="../mtbook_uebungen/location/probeklausur/">Probeklausur (11)</a>
+    <a href="../mtbook_uebungen/location/probeklausur/">Probeklausur (10)</a>
   </li>
   
   
@@ -497,6 +492,8 @@ document.write(`
   </li>
   
   
+  
+  
 </ul>
 </div>
 </div>
@@ -509,7 +506,7 @@ document.write(`
   
   
   <li>
-    <a href="../mtbook_uebungen/category/kurzfrage/">Kurzfrage (9)</a>
+    <a href="../mtbook_uebungen/category/kurzfrage/">Kurzfrage (8)</a>
   </li>
   
   
@@ -533,7 +530,7 @@ document.write(`
   
   
   <li>
-    <a href="../mtbook_uebungen/category/ubung/">Übung (39)</a>
+    <a href="../mtbook_uebungen/category/ubung/">Übung (38)</a>
   </li>
   
   
@@ -555,6 +552,8 @@ document.write(`
   <li class="ablog-cloud ablog-cloud-1">
     <a href="../mtbook_uebungen/tag/aliasing/">Aliasing</a>
   </li>
+  
+  
   
   
   
@@ -846,6 +845,8 @@ document.write(`
   
   
   
+  
+  
   <li class="ablog-cloud ablog-cloud-2">
     <a href="../mtbook_uebungen/tag/systematisch/">Systematisch</a>
   </li>
@@ -922,8 +923,10 @@ document.write(`
 <ul>
   
   
+  
+  
   <li>
-    <a href="../mtbook_uebungen/2023/">2023 (42)</a>
+    <a href="../mtbook_uebungen/2023/">2023 (41)</a>
   </li>
   
   
@@ -987,42 +990,62 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-<section class="tex2jax_ignore mathjax_ignore" id="abtastung-eines-dreiecksignals">
-<h1>Abtastung eines Dreiecksignals<a class="headerlink" href="#abtastung-eines-dreiecksignals" title="Permalink to this heading">#</a></h1>
-<p>Ein als ideal angenommenes Dreiecksignal mit einer Periodendauer von <span class="math notranslate nohighlight">\(1\,\mathrm{ms}\)</span> werde mit einer Abtastrate von <span class="math notranslate nohighlight">\(10\,\mathrm{kHz}\)</span> digitalisiert. Geben Sie an, ob in diesem Fall das Abtasttheorem nach Shannon erfüllt ist! Begründen Sie Ihre Antwort!</p>
-<p>Welcher Effekt tritt ein, wenn das Abtasttheorem verletzt ist? Erläutern Sie diesen Effekt mit einer einfachen Skizze.</p>
+<section class="tex2jax_ignore mathjax_ignore" id="abtastung-von-messsignalen">
+<h1>Abtastung von Messsignalen<a class="headerlink" href="#abtastung-von-messsignalen" title="Permalink to this heading">#</a></h1>
+<section id="a1-abtastung-eines-dreiecksignals-in-der-audiotechnik">
+<h2>A1: Abtastung eines Dreiecksignals in der Audiotechnik<a class="headerlink" href="#a1-abtastung-eines-dreiecksignals-in-der-audiotechnik" title="Permalink to this heading">#</a></h2>
+<p>Ein Musikproduktionsstudio verwendet Synthesizer, die Dreiecksignale erzeugen. Diese Signale müssen korrekt digitalisiert werden, um die Klangqualität zu bewahren.</p>
+<p>Ein ideal angenommenes Dreiecksignal mit einer Periodendauer von <span class="math notranslate nohighlight">\(1\,\mathrm{ms}\)</span> wird mit einer Abtastrate von <span class="math notranslate nohighlight">\(10\,\mathrm{kHz}\)</span> digitalisiert.</p>
+<ol class="arabic simple">
+<li><p><strong>Überprüfung des Abtasttheorems:</strong></p>
+<ul class="simple">
+<li><p>Geben Sie an, ob in diesem Fall das Abtasttheorem nach Shannon erfüllt ist!</p></li>
+<li><p>Begründen Sie Ihre Antwort!</p></li>
+</ul>
+</li>
+<li><p><strong>Effekte bei Verletzung des Abtasttheorems:</strong></p>
+<ul class="simple">
+<li><p>Welcher Effekt tritt ein, wenn das Abtasttheorem verletzt ist?</p></li>
+<li><p>Erläutern Sie diesen Effekt mit einer einfachen Skizze.</p></li>
+</ul>
+</li>
+<li><p><strong>Praktische Anwendung:</strong></p>
+<ul class="simple">
+<li><p>Erklären Sie, warum es in der Audiotechnik wichtig ist, die Abtastfrequenz korrekt zu wählen und welche Konsequenzen eine Verletzung des Abtasttheorems haben könnte.</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="a2-abtastung-eines-rechtecksignals-in-der-radartechnik">
+<h2>A2: Abtastung eines Rechtecksignals in der Radartechnik<a class="headerlink" href="#a2-abtastung-eines-rechtecksignals-in-der-radartechnik" title="Permalink to this heading">#</a></h2>
+<p>GPS (Global Positioning System) ist ein satellitengestütztes Navigationssystem, das genaue Standort- und Zeitinformationen liefert. GPS basiert auf Satelliten, die mit codierten <strong>Radiosignalen</strong> ständig ihre aktuelle Position und die genaue Uhrzeit ausstrahlen. Aus den Signallaufzeiten können spezielle Empfänger ihre eigene Position und Geschwindigkeit berechnen. Theoretisch reichen die Signale von drei Satelliten aus, welche sich oberhalb ihres Abschaltwinkels befinden müssen, um daraus die genaue Position und Höhe zu bestimmen. Das GPS-Signal hat eine Wellenlänge von <span class="math notranslate nohighlight">\(19\,\mathrm{cm}\)</span>, was einer Frequenz von <span class="math notranslate nohighlight">\(1,57542\,\mathrm{GHz}\)</span> entspricht. Aufgrund der hohen Frequenz und der zahlreichen Oberwellen ist es entscheidend, die Signale korrekt abzutasten, um Aliasing zu vermeiden und präzise Positionsdaten zu erhalten.
+Ein Rechtecksignal (hier stellvertetend für den PRN code) mit einer Grundfrequenz von <span class="math notranslate nohighlight">\(10\,\mathrm{MHz}\)</span> wird mit einer Abtastrate von <span class="math notranslate nohighlight">\(200\,\mathrm{MHz}\)</span> digitalisiert.</p>
+<ol class="arabic simple">
+<li><p><strong>Überprüfung des Abtasttheorems:</strong></p>
+<ul class="simple">
+<li><p>Geben Sie an, ob in diesem Fall das Abtasttheorem nach Shannon erfüllt ist!</p></li>
+<li><p>Begründen Sie Ihre Antwort!</p></li>
+</ul>
+</li>
+<li><p><strong>Effekte bei Verletzung des Abtasttheorems:</strong></p>
+<ul class="simple">
+<li><p>Welcher Effekt tritt ein, wenn das Abtasttheorem verletzt ist?</p></li>
+<li><p>Erläutern Sie diesen Effekt mit einer einfachen Skizze.</p></li>
+</ul>
+</li>
+<li><p><strong>Praktische Anwendung:</strong></p>
+<ul class="simple">
+<li><p>Erklären Sie, warum es in der Radartechnik wichtig ist, die Abtastfrequenz korrekt zu wählen und welche Konsequenzen eine Verletzung des Abtasttheorems haben könnte.</p></li>
+</ul>
+</li>
+</ol>
+</section>
 </section>
 
 <div class="section ablog__blog_comments">
   
   
 
-
-<div class="section ablog__prev-next">
-  <span class="ablog__prev">
-    
-    
-    <a href="../Stromquelle mit periodischem Rechteckpuls/">
-      
-      <i class="fa fa-arrow-circle-left"></i>
-      
-      <span>Stromquelle mit periodischem Rechteckpuls</span>
-    </a>
-    
-  </span>
-  <span class="ablog__spacer">&nbsp;</span>
-  <span class="ablog__next">
-    
-    
-    <a href="../Digitalisierung/">
-      <span>Digitalisierung</span>
-      
-      <i class="fa fa-arrow-circle-right" ></i>
-      
-    </a>
-    
-  </span>
-</div>
 
   
   
@@ -1045,6 +1068,17 @@ document.write(`
             
               
                 <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a1-abtastung-eines-dreiecksignals-in-der-audiotechnik">A1: Abtastung eines Dreiecksignals in der Audiotechnik</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a2-abtastung-eines-rechtecksignals-in-der-radartechnik">A2: Abtastung eines Rechtecksignals in der Radartechnik</a></li>
+</ul>
+  </nav></div>
 
   <div class="sidebar-secondary-item">
   <div class="tocsection sourcelink">
