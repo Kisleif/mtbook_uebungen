@@ -1,0 +1,32 @@
+\documentclass[a4paper,ngerman,addpoints,11pt]{exam}
+%\input{head}
+\usepackage{tikz,graphicx,lipsum}
+\usepackage[ngerman]{babel}
+\usepackage{wrapfig}
+ \usepackage[utf8]{inputenc}
+\newcommand{\dozent}{Prof. Katharina-Sophie Isleif} 
+\newcommand{\fach}{Messtechnik \"Ubungszettel NUMMER}
+\newcommand{\university}{    Helmut-Schmidt-Universität \\ Universität der Bundeswehr Hamburg}
+\pagestyle{headandfoot}
+\firstpageheadrule
+\runningheadrule
+\firstpageheader{\university \\\dozent}{}{\includegraphics[width=8cm]{hsu.pdf}}
+\runningheader{Messtechnik \"Ubungszettel NUMMER}{}{\includegraphics[width=8cm]{hsu.pdf}}
+\firstpagefooter{}{}{\thepage\,/\,\numpages}
+\runningfooter{}{}{\thepage\,/\,\numpages}
+\usepackage{lastpage}
+ \usepackage{upgreek}
+ \usepackage{mathswap,textcomp}
+\pointpoints{Punkt}{Punkte}
+\bonuspointpoints{Bonuspunkt}{Bonuspunkte}
+\qformat{\textbf{Aufgabe \thequestion}\quad (\thepoints)\hfill}
+  \qformat{\textbf{Aufgabe \thequestion}  (\totalpoints{} \points) \hfill}
+
+\usepackage{siunitx}
+\sisetup{
+   output-decimal-marker = {,}
+}
+\usepackage{amsthm, amsmath, amssymb} % Mathematical typesetting
+
+
+\usepackage{floatflt,epsfig} 
