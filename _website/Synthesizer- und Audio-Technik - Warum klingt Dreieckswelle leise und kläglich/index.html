@@ -337,11 +337,9 @@ document.write(`
 <h2>
   
   
-  <i class="fa fa-pencil"></i>
+  <i class="fa fa-calendar"></i>
   
-  
-  Okt 01, 2024
-  
+  Okt 01, 2023
   
 </h2>
 <ul>
@@ -390,18 +388,6 @@ document.write(`
     </span>
   
   
-  Audio-Technik
-  
-  
-  
-  
-  
-  Synthesizer
-  
-  
-  
-  
-  
   <a href="../mtbook_uebungen/tag/signal/">Signal</a>
   
   
@@ -409,6 +395,42 @@ document.write(`
   
   
   <a href="../mtbook_uebungen/tag/dreieck/">Dreieck</a>
+  
+  
+  
+  
+  
+  <a href="../mtbook_uebungen/tag/audio-technik/">Audio-Technik</a>
+  
+  
+  
+  
+  
+  <a href="../mtbook_uebungen/tag/fourier-reihe/">Fourier-Reihe</a>
+  
+  
+  
+  
+  
+  <a href="../mtbook_uebungen/tag/abtastung/">Abtastung</a>
+  
+  
+  
+  
+  
+  <a href="../mtbook_uebungen/tag/rechteck/">Rechteck</a>
+  
+  
+  
+  
+  
+  <a href="../mtbook_uebungen/tag/aliasing/">Aliasing</a>
+  
+  
+  
+  
+  
+  <a href="../mtbook_uebungen/tag/sagezahn/">Sägezahn</a>
   
   
   
@@ -500,7 +522,7 @@ document.write(`
   
   
   <li>
-    <a href="../mtbook_uebungen/location/ubungszettel/">Übungszettel (2)</a>
+    <a href="../mtbook_uebungen/location/ubungszettel/">Übungszettel (3)</a>
   </li>
   
   
@@ -540,7 +562,7 @@ document.write(`
   
   
   <li>
-    <a href="../mtbook_uebungen/category/ubung/">Übung (40)</a>
+    <a href="../mtbook_uebungen/category/ubung/">Übung (41)</a>
   </li>
   
   
@@ -559,11 +581,15 @@ document.write(`
   
   
   
-  <li class="ablog-cloud ablog-cloud-1">
+  <li class="ablog-cloud ablog-cloud-2">
     <a href="../mtbook_uebungen/tag/aliasing/">Aliasing</a>
   </li>
   
   
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="../mtbook_uebungen/tag/audio-technik/">Audio-Technik</a>
+  </li>
   
   
   
@@ -629,6 +655,12 @@ document.write(`
   
   <li class="ablog-cloud ablog-cloud-2">
     <a href="../mtbook_uebungen/tag/fehlerfortpflanzung/">Fehlerfortpflanzung</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="../mtbook_uebungen/tag/fourier-reihe/">Fourier-Reihe</a>
   </li>
   
   
@@ -789,7 +821,7 @@ document.write(`
   
   
   
-  <li class="ablog-cloud ablog-cloud-2">
+  <li class="ablog-cloud ablog-cloud-3">
     <a href="../mtbook_uebungen/tag/rechteck/">Rechteck</a>
   </li>
   
@@ -855,15 +887,13 @@ document.write(`
   
   
   
-  
-  
   <li class="ablog-cloud ablog-cloud-2">
     <a href="../mtbook_uebungen/tag/systematisch/">Systematisch</a>
   </li>
   
   
   
-  <li class="ablog-cloud ablog-cloud-1">
+  <li class="ablog-cloud ablog-cloud-2">
     <a href="../mtbook_uebungen/tag/sagezahn/">Sägezahn</a>
   </li>
   
@@ -934,7 +964,7 @@ document.write(`
   
   
   <li>
-    <a href="../mtbook_uebungen/2023/">2023 (43)</a>
+    <a href="../mtbook_uebungen/2023/">2023 (44)</a>
   </li>
   
   
@@ -1012,8 +1042,11 @@ document.write(`
 <ol class="arabic simple">
 <li><p><strong>Analyse der Obertonstruktur:</strong></p></li>
 </ol>
-<p>Vergleichen Sie die Amplituden der Obertöne (höhere Harmonische der Grundfrequenz) von Dreieckswellen, Sägezahnwellen und Rechteckwellen. Beschreiben Sie, welche Obertöne (Frequenzen) jede dieser Wellenformen enthält und wie die Amplituden der Obertöne gedämpft werden.
-Gegebene Parameter: Grundfrequenz: <span class="math notranslate nohighlight">\(100\,\mathrm{Hz}\)</span></p>
+<ul class="simple">
+<li><p>Vergleichen Sie die Amplituden der Obertöne (höhere Harmonische der Grundfrequenz) von Dreieckswellen, Sägezahnwellen und Rechteckwellen.</p></li>
+<li><p>Beschreiben Sie, welche Obertöne (Frequenzen) jede dieser Wellenformen enthält und wie die Amplituden der Obertöne gedämpft werden.</p></li>
+</ul>
+<p>Gegebene Parameter: Grundfrequenz: <span class="math notranslate nohighlight">\(100\,\mathrm{Hz}\)</span></p>
 <ol class="arabic simple" start="2">
 <li><p><strong>Verstehen der Klangunterschiede:</strong></p></li>
 </ol>
@@ -1026,12 +1059,8 @@ Gegebene Parameter: Grundfrequenz: <span class="math notranslate nohighlight">\(
 </ol>
 <ul class="simple">
 <li><p>Sie bemerken, dass ein Dreieckssignal bei einer Frequenz von <span class="math notranslate nohighlight">\(700\,\mathrm{Hz}\)</span> sehr leise und kläglich klingt, während das gleiche Signal bei <span class="math notranslate nohighlight">\(500\,\mathrm{Hz}\)</span> laut und satt klingt. Erklären Sie diesen Effekt und geben Sie an, welche Harmonischen in beiden Fällen vorhanden sind und wie ihre Amplituden gedämpft werden.</p></li>
-<li><p>Gegeben:</p>
-<ul>
-<li><p>Frequenzen: <span class="math notranslate nohighlight">\(500\,\mathrm{Hz}\)</span> und <span class="math notranslate nohighlight">\(700\,\mathrm{Hz}\)</span></p></li>
 </ul>
-</li>
-</ul>
+<p>Gegeben: Frequenzen: <span class="math notranslate nohighlight">\(500\,\mathrm{Hz}\)</span> und <span class="math notranslate nohighlight">\(700\,\mathrm{Hz}\)</span></p>
 <ol class="arabic simple" start="4">
 <li><p><strong>Berechnung der Abtastrate:</strong></p></li>
 </ol>
@@ -1045,6 +1074,32 @@ Gegebene Parameter: Grundfrequenz: <span class="math notranslate nohighlight">\(
   
   
 
+
+<div class="section ablog__prev-next">
+  <span class="ablog__prev">
+    
+    
+    <a href="../Abtastung eines Rechtecksignals in der Radartechnik/">
+      
+      <i class="fa fa-arrow-circle-left"></i>
+      
+      <span>Abtastung eines Rechtecksignals in der Radartechnik</span>
+    </a>
+    
+  </span>
+  <span class="ablog__spacer">&nbsp;</span>
+  <span class="ablog__next">
+    
+    
+    <a href="../Schwerependel/">
+      <span>Das Schwerependel</span>
+      
+      <i class="fa fa-arrow-circle-right" ></i>
+      
+    </a>
+    
+  </span>
+</div>
 
   
   

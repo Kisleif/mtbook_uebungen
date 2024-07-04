@@ -1,6 +1,6 @@
 ---
 blogpost: true
-date: Oct 01, 2024
+date: Oct 01, 2023
 location: Übungszettel
 category: Übung
 tags: Dreieck, Sägezahn, Rechteck, Fourier-Reihe, Audio-Technik, Signal, Aliasing, Abtastung
