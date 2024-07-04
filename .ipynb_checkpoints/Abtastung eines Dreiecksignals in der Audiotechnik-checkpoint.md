@@ -6,9 +6,7 @@ category: Übung
 tags: Abtastung, Dreieck, Aliasing
 ---
 
-# Abtastung von Messsignalen
-
-## Abtastung eines Dreiecksignals in der Audiotechnik
+# Abtastung eines Dreiecksignals in der Audiotechnik
 
 Ein Musikproduktionsstudio verwendet Synthesizer, die Dreiecksignale erzeugen. Diese Signale müssen korrekt digitalisiert werden, um die Klangqualität zu bewahren.
 
