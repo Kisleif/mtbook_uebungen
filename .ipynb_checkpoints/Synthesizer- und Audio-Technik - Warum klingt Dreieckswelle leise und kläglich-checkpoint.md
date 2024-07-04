@@ -3,7 +3,7 @@ blogpost: true
 date: Oct 01, 2024
 location: Übungszettel
 category: Übung
-tags: Dreieck, Synthesizer, Audio-Technik, Signal
+tags: Dreieck, Sägezahn, Rechteck, Fourier-Reihe, Audio-Technik, Signal, Aliasing, Abtastung
 ---
 
 # Synthesizer- und Audio-Technik: Warum klingt Dreieckswelle leise und kläglich?
@@ -22,11 +22,11 @@ Am 29.09.2011 hat Globoflexia online folgendes Problem gepostet:
 > 
 > Vielen Dank für eure Hilfe!
 
-## Aufgaben:
-
 1. **Analyse der Obertonstruktur:**
 
- Vergleichen Sie die Amplituden der Obertöne (höhere Harmonische der Grundfrequenz) von Dreieckswellen, Sägezahnwellen und Rechteckwellen. Beschreiben Sie, welche Obertöne (Frequenzen) jede dieser Wellenformen enthält und wie die Amplituden der Obertöne gedämpft werden.
+* Vergleichen Sie die Amplituden der Obertöne (höhere Harmonische der Grundfrequenz) von Dreieckswellen, Sägezahnwellen und Rechteckwellen. 
+* Beschreiben Sie, welche Obertöne (Frequenzen) jede dieser Wellenformen enthält und wie die Amplituden der Obertöne gedämpft werden.
+
 Gegebene Parameter: Grundfrequenz: $100\,\mathrm{Hz}$
 
 2. **Verstehen der Klangunterschiede:**
@@ -37,8 +37,8 @@ Gegebene Parameter: Grundfrequenz: $100\,\mathrm{Hz}$
 3. **Praktische Anwendung:**
 
   * Sie bemerken, dass ein Dreieckssignal bei einer Frequenz von $700\,\mathrm{Hz}$ sehr leise und kläglich klingt, während das gleiche Signal bei $500\,\mathrm{Hz}$ laut und satt klingt. Erklären Sie diesen Effekt und geben Sie an, welche Harmonischen in beiden Fällen vorhanden sind und wie ihre Amplituden gedämpft werden.
-  * Gegeben:
-    * Frequenzen: $500\,\mathrm{Hz}$ und $700\,\mathrm{Hz}$
+
+Gegeben: Frequenzen: $500\,\mathrm{Hz}$ und $700\,\mathrm{Hz}$
 
 
 4. **Berechnung der Abtastrate:**
