@@ -1,7 +1,7 @@
 ---
 blogpost: true
-date: Dez 24, 2022
-location: Klausur
+date: Oct 07, 2024
+location: Klausur, Zettel 1
 category: Multiple-Choice
 tags: Einheiten
 ---
